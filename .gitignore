@@ -1,0 +1,27 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local databases
+*.db
+
+# Test cache
+.pytest_cache/
+
+# Model artifacts generated locally
+*.joblib
+
+# macOS files
+.DS_Store
+
+# Editor settings
+.vscode/

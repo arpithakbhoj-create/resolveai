@@ -1,0 +1,65 @@
+description,category
+Windows server is not responding to remote desktop connections,Infrastructure
+Virtual machine fails to start after scheduled maintenance,Infrastructure
+Server CPU utilization remains above 95 percent,Infrastructure
+Disk space is critically low on the application server,Infrastructure
+Scheduled Windows patch installation failed,Infrastructure
+Server operating system crashes during startup,Infrastructure
+Virtual machine memory utilization is critically high,Infrastructure
+Backup job failed on the production server,Infrastructure
+Users are unable to connect to the corporate VPN,Network
+Network connection times out when accessing internal services,Network
+DNS resolution fails for internal domain names,Network
+Office network experiences frequent packet loss,Network
+Router interface is down and causing connectivity issues,Network
+Firewall routing configuration blocks network traffic,Network
+Network latency is unusually high between data centers,Network
+Wireless access points are frequently disconnecting users,Network
+Employees cannot connect to VPN from home,Network
+Remote employees are unable to establish VPN connection,Network
+VPN client fails to authenticate remote users,Network
+Corporate VPN connection disconnects frequently,Network
+Users report VPN connectivity issues while working remotely,Network
+Network connection fails when connecting from home,Network
+VPN tunnel cannot be established,Network
+Remote access VPN connection is unavailable,Network
+Web application displays an internal server error,Application
+Application crashes when users submit a form,Application
+Login page fails to load after application deployment,Application
+Application API returns HTTP 500 errors,Application
+Software service stops unexpectedly during processing,Application
+Application response time increases after a new release,Application
+Users cannot upload documents through the application,Application
+Application authentication workflow fails for valid users,Application
+Multiple failed login attempts detected from unknown IP addresses,Security
+Endpoint protection detects suspicious malware activity,Security
+Unauthorized access attempt detected on a privileged account,Security
+Security monitoring reports possible credential compromise,Security
+Suspicious PowerShell execution detected on a workstation,Security
+Potential phishing email reported by an employee,Security
+Unusual outbound traffic indicates possible data exfiltration,Security
+Critical security vulnerability detected on a server,Security
+Database queries are running significantly slower than expected,Database
+SQL database connection pool is exhausted,Database
+Database transaction fails due to a deadlock,Database
+Database replication is delayed between primary and secondary,Database
+Database backup fails during scheduled execution,Database
+Application cannot connect to the SQL database,Database
+Database storage utilization reaches critical capacity,Database
+Database service stops unexpectedly after maintenance,Database
+Employee requests installation of approved office software,Other
+User needs assistance configuring a new monitor,Other
+Printer produces blank pages despite having sufficient toner,Other
+Employee requests access to a shared team folder,Other
+User reports an issue with a docking station,Other
+Keyboard stops responding after connecting to a laptop,Other
+Employee requests replacement of a damaged headset,Other
+User needs help configuring an office desk phone,Other
+Laptop keyboard is not working,Other
+Several keys on the laptop keyboard have stopped responding,Other
+Employee reports a faulty external keyboard,Other
+Keyboard input is not detected by the laptop,Other
+User requests replacement of a damaged laptop keyboard,Other
+Wireless mouse stops responding intermittently,Other
+Laptop touchpad is not functioning correctly,Other
+Employee reports a malfunctioning USB headset,Other

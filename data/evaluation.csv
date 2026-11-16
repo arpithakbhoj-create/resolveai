@@ -1,0 +1,14 @@
+
+description,category
+"Hypervisor host becomes unreachable after a firmware upgrade",Infrastructure
+"Scheduled operating system updates leave a virtual server stuck during reboot",Infrastructure
+"Remote branch employees experience intermittent connectivity to headquarters",Network
+"Internal websites fail to resolve after a DNS configuration change",Network
+"Customers receive an error when submitting checkout orders",Application
+"Mobile application freezes whenever a user opens the payment screen",Application
+"An administrator receives an unexpected multi-factor authentication approval request",Security
+"Security monitoring detects repeated attempts to access restricted files",Security
+"Reporting queries fail because a database table is locked",Database
+"Database migration fails due to a schema constraint violation",Database
+"Employee requests assistance connecting a Bluetooth mouse",Other
+"Conference room projector fails to display the laptop screen",Other

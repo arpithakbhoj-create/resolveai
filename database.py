@@ -4,8 +4,16 @@ from pathlib import Path
 
 
 # Database file location
-DATABASE_PATH = Path(__file__).resolve().parent / "resolveai.db"
+import os
 
+DATABASE_PATH = Path(
+    os.getenv(
+        "DATABASE_PATH",
+        str(Path(__file__).resolve().parent / "resolveai.db")
+    )
+)
+
+DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # Create a connection to SQLite
 def get_db_connection():

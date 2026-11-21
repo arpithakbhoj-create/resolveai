@@ -17,6 +17,9 @@ from models import (
 from ml.model_service import predict_incident_category
 
 from fastapi import FastAPI, HTTPException, status
+from contextlib import asynccontextmanager
+
+from database import initialize_database
 
 from models import Incident, IncidentCreate, IncidentUpdate, IncidentHistory, IncidentCreationResponse
 from models import RAGResolutionResponse
@@ -31,10 +34,22 @@ from service import (
 )
 
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+
+    # Application startup
+    initialize_database()
+
+    yield
+
+    # Application shutdown
+    print("ResolveAI application shutting down")
+
 app = FastAPI(
     title="ResolveAI",
     description="AI-powered IT Incident Intelligence and Resolution Assistant",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 
